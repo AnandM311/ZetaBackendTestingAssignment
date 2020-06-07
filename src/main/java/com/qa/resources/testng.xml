@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.qa.extentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="API Automation">
+		<classes>
+			<class name="com.qa.tests.GetCitiesApi"></class>
+			<class name="com.qa.tests.GetCitiesApi2"></class>
+			<class name="com.qa.tests.GetLocationsApi"></class>
+		</classes>
+	</test>
+</suite>

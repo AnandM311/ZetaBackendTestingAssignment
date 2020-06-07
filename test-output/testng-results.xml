@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Automation Test Suite" duration-ms="14724" started-at="2020-06-07T21:23:05 IST" finished-at="2020-06-07T21:23:20 IST">
+    <groups>
+    </groups>
+    <test name="API Automation" duration-ms="14724" started-at="2020-06-07T21:23:05 IST" finished-at="2020-06-07T21:23:20 IST">
+      <class name="com.qa.tests.GetLocationsApi">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetLocationsApi@5762806e]" name="setUp" is-config="true" duration-ms="2" started-at="2020-06-07T21:23:17 IST" finished-at="2020-06-07T21:23:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfiyResposeBodyWithoutQueryParams()[pri:1, instance:com.qa.tests.GetLocationsApi@5762806e]" name="verfiyResposeBodyWithoutQueryParams" duration-ms="922" started-at="2020-06-07T21:23:17 IST" finished-at="2020-06-07T21:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyResposeBodyWithoutQueryParams -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetLocationsApi@5762806e]" name="setUp" is-config="true" duration-ms="1" started-at="2020-06-07T21:23:18 IST" finished-at="2020-06-07T21:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfiyResposeBodyWithQueryParams()[pri:2, instance:com.qa.tests.GetLocationsApi@5762806e]" name="verfiyResposeBodyWithQueryParams" duration-ms="1040" started-at="2020-06-07T21:23:18 IST" finished-at="2020-06-07T21:23:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyResposeBodyWithQueryParams -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetLocationsApi@5762806e]" name="setUp" is-config="true" duration-ms="1" started-at="2020-06-07T21:23:19 IST" finished-at="2020-06-07T21:23:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfiyResposeBodyWithAllQueryParams()[pri:3, instance:com.qa.tests.GetLocationsApi@5762806e]" name="verfiyResposeBodyWithAllQueryParams" duration-ms="1100" started-at="2020-06-07T21:23:19 IST" finished-at="2020-06-07T21:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyResposeBodyWithAllQueryParams -->
+      </class> <!-- com.qa.tests.GetLocationsApi -->
+      <class name="com.qa.tests.GetCitiesApi2">
+        <test-method status="PASS" signature="verifyStatusCodeWithoutApiKey()[pri:1, instance:com.qa.tests.GetCitiesApi2@548a102f]" name="verifyStatusCodeWithoutApiKey" duration-ms="964" started-at="2020-06-07T21:23:12 IST" finished-at="2020-06-07T21:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCodeWithoutApiKey -->
+        <test-method status="PASS" signature="verifyResponseBodyWithoutCityID()[pri:2, instance:com.qa.tests.GetCitiesApi2@548a102f]" name="verifyResponseBodyWithoutCityID" duration-ms="911" started-at="2020-06-07T21:23:13 IST" finished-at="2020-06-07T21:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyWithoutCityID -->
+        <test-method status="PASS" signature="getCityUsingLatLong()[pri:3, instance:com.qa.tests.GetCitiesApi2@548a102f]" name="getCityUsingLatLong" duration-ms="796" started-at="2020-06-07T21:23:14 IST" finished-at="2020-06-07T21:23:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityUsingLatLong -->
+        <test-method status="PASS" signature="getCityUsingQ()[pri:4, instance:com.qa.tests.GetCitiesApi2@548a102f]" name="getCityUsingQ" duration-ms="977" started-at="2020-06-07T21:23:15 IST" finished-at="2020-06-07T21:23:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityUsingQ -->
+        <test-method status="PASS" signature="getCityUsingSpecificCityName()[pri:5, instance:com.qa.tests.GetCitiesApi2@548a102f]" name="getCityUsingSpecificCityName" duration-ms="1150" started-at="2020-06-07T21:23:16 IST" finished-at="2020-06-07T21:23:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityUsingSpecificCityName -->
+      </class> <!-- com.qa.tests.GetCitiesApi2 -->
+      <class name="com.qa.tests.GetCitiesApi">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="setUp" is-config="true" duration-ms="4685" started-at="2020-06-07T21:23:05 IST" finished-at="2020-06-07T21:23:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyStatusCodeAndStatusLine()[pri:1, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="verifyStatusCodeAndStatusLine" duration-ms="24" started-at="2020-06-07T21:23:10 IST" finished-at="2020-06-07T21:23:10 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [200]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.qa.tests.GetCitiesApi.verifyStatusCodeAndStatusLine(GetCitiesApi.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCodeAndStatusLine -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="setUp" is-config="true" duration-ms="801" started-at="2020-06-07T21:23:10 IST" finished-at="2020-06-07T21:23:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCityID()[pri:2, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="verifyCityID" duration-ms="231" started-at="2020-06-07T21:23:11 IST" finished-at="2020-06-07T21:23:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityID -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="setUp" is-config="true" duration-ms="1044" started-at="2020-06-07T21:23:11 IST" finished-at="2020-06-07T21:23:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCountryFlagUrl()[pri:3, instance:com.qa.tests.GetCitiesApi@2aece37d]" name="verifyCountryFlagUrl" duration-ms="2" started-at="2020-06-07T21:23:12 IST" finished-at="2020-06-07T21:23:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryFlagUrl -->
+      </class> <!-- com.qa.tests.GetCitiesApi -->
+    </test> <!-- API Automation -->
+  </suite> <!-- API Automation Test Suite -->
+</testng-results>
